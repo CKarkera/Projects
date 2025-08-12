@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"api\/ems_event_tests[1.1:31]","start":1750864220393,"end":1750864221423,"title":"api\/ems_event_tests[1.1:31] 20:40:20.393-20:40:21.423 Validate EMS event API"},{"id":2,"group":1,"content":"api\/ems_event_tests[1.2:32]","start":1750864221434,"end":1750864221584,"title":"api\/ems_event_tests[1.2:32] 20:40:21.434-20:40:21.584 Validate EMS event API"},{"id":3,"group":1,"content":"api\/ems_event_tests[1.3:33]","start":1750864221598,"end":1750864221771,"title":"api\/ems_event_tests[1.3:33] 20:40:21.598-20:40:21.771 Validate EMS event API"},{"id":4,"group":1,"content":"api\/ems_event_tests[1.4:34]","start":1750864221790,"end":1750864221985,"title":"api\/ems_event_tests[1.4:34] 20:40:21.790-20:40:21.985 Validate EMS event API"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

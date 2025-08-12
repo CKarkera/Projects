@@ -1,0 +1,17 @@
+{
+  "campaignId": "5463818221877690528",
+  "ip": "167.89.2.144",
+  "externalId": "445601472810202666",
+  "sg_event_id": "ZGVsaXZlcmVk...",
+  "smtp-id": "<Kj7...>",
+  "se": "info@ecomadminpro.com",
+  "sg_message_id": "Kj7...",
+  "response": "250 2.0.0 OK",
+  "srno": "2",
+  "encParams": "ed03e94f...",
+  "recipientId": "-824085864534982803",
+  "tls": 1,
+  "event": "delivered",
+  "email": "sparsh.gupta@dummyhit.com",
+  "timestamp": 1750849523
+}

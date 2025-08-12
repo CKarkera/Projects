@@ -1,0 +1,20 @@
+{
+  "campaignId": "5463818221877690528",
+  "ip": "117.200.108.49",
+  "useragent": "Mozilla/5.0",
+  "externalId": "370244340415132064",
+  "sg_event_id": "cQXzpyKjQ02YM64n59pRww",
+  "url": "https://entlinksapp-qa.webaroo.com/EMSLinkApp/API/rest?action=Link&lid=...&cid=5463818221877690528",
+  "se": "info@ecomadminpro.com",
+  "sg_message_id": "Kj7...",
+  "url_offset": {
+    "index": 0,
+    "type": "html"
+  },
+  "srno": "1",
+  "encParams": "ed03e94f...",
+  "recipientId": "1305308337196221164",
+  "event": "click",
+  "email": "chaithanya.karkera@dummyhit.com",
+  "timestamp": 1750849619
+}

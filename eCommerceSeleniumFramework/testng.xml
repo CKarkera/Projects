@@ -1,0 +1,9 @@
+<suite name="SeleniumSuite" parallel="methods" thread-count="2">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.ecommerce.test.LoginTest"/>
+            <class name="com.ecommerce.test.DashboardTest"/>
+
+        </classes>
+    </test>
+</suite>
